@@ -4,9 +4,8 @@ export default function(url, options) {
   const state = reactive({
     response: [],
     error: null,
-    fetching: false,
+    fetching: false
   });
-  //
   const fetchData = async () => {
     //response, error handling, and fetching display functionality (try/catch/finally)
     state.fetching = true;

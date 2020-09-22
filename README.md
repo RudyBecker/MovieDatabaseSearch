@@ -6,10 +6,21 @@ Search The Movie Database (www.themoviedb.org) with this app to find your favori
 - Clone this repo to your local machine using https://github.com/RudyBecker/MovieDatabaseSearch.git
 
 ### Setup
-
+> Navigate to root directory of cloned repository, in most cases this will be "MovieDatabaseSearch"
+> Run the following commands to get the application up and running
 > Install npm
 ```shell
 npm install
+```
+
+> Install Vue.js framework
+```shell
+npm install vue
+```
+
+> Update npm
+```shell
+npm update
 ```
 
 ### Compiles and hot-reloads for development
