@@ -1,11 +1,9 @@
 # MovieDatabaseSearch
-Search The Movie Database (www.themoviedb.org) with this app to find your favorite Movies. Add/remove movies to your running collection.  
-
-(http://badges.mit-license.org) [![Badges](http://img.shields.io/:badges-9/9-ff6799.svg?style=flat-square)](https://github.com/badges/badgerbadgerbadger)
+Search The Movie Database (www.themoviedb.org) with this app to find your favorite Movies. Select & remove movies you have to your collection. 
 
 ## Installation
 ### Clone
-- Clone this repo to your local machine using
+- Clone this repo to your local machine using https://github.com/RudyBecker/MovieDatabaseSearch.git
 
 ### Setup
 
@@ -28,6 +26,10 @@ npm run build
 ```
 npm run lint
 ```
+
+## Support
+
+Reach out to me via email at rudy.becker@gmail.com!
 
 ## License
 
