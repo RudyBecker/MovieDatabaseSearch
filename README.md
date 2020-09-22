@@ -8,6 +8,7 @@ Search The Movie Database (www.themoviedb.org) with this app to find your favori
 ### Setup
 > Navigate to root directory of cloned repository, in most cases this will be "MovieDatabaseSearch"
 > Run the following commands to get the application up and running
+
 > Install npm
 ```shell
 npm install
@@ -23,7 +24,7 @@ npm install vue
 npm update
 ```
 
-### Compiles and hot-reloads for development
+### Compiles code and begins server (site will now be accessible on your local browser)
 ```shell
 npm run serve
 ```
