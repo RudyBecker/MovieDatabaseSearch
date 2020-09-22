@@ -3,6 +3,7 @@ import useFetch from './use-fetch';
 export default function() {
   let movies = reactive({list: [], error: null, fetching: false});
   const val = ref('');
+  //async request for retrieving data from the database via API calling useFetch()
   const submitted = async () => {
 
     const {response, error, fetchData, fetching} = useFetch(
@@ -10,10 +11,10 @@ export default function() {
       {}
     );
     fetchData();
+    //response, error handling, and fetching display functionality
     movies.list = response;
     movies.error = error;
     movies.fetching = fetching;
-    console.log(response)
   };
   return {submitted, ...toRefs(movies), val};
 }

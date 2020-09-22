@@ -6,7 +6,9 @@ export default function(url, options) {
     error: null,
     fetching: false,
   });
+  //
   const fetchData = async () => {
+    //response, error handling, and fetching display functionality (try/catch/finally)
     state.fetching = true;
     try {
       const res = await fetch(url, options);

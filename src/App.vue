@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <!-- Component that shows search, movies returned from database, and interface to save/remove movies from My Collection -->
     <SearchMovies />
   </div>
 </template>
